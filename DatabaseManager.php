@@ -175,7 +175,7 @@ class DatabaseManager implements ConnectionResolverInterface
 
         return $this->factory->make($config, $name);
     }
-
+    //prepare for instal
     /**
      * Prepare the database connection instance.
      *
